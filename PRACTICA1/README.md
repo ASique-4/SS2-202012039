@@ -1,4 +1,4 @@
-# PROYECTO 2
+# PRACTICA 1
 
 | Nombre                       | Carnet    |
 | ---------------------------- | --------- |
