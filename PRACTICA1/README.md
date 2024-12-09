@@ -4,54 +4,42 @@
 | ---------------------------- | --------- |
 | Angel Francisco Sique Santos | 202012039 |
 
-### **Índice - Documentación del Proceso ETL**
+---
 
-1. **Introducción**
-   - Descripción del Proyecto
-   - Fuentes de Datos
+# Índice
 
-2. **Proceso de ETL**
-   - **1. Extracción de Datos**
-     - Carga del Archivo Local (`municipio.csv`)
-     - Descarga del Archivo Remoto (`global_calificacion.csv`) desde Google Drive
-   - **2. Transformación de Datos**
-     - **Limpieza del Archivo Local (`municipio.csv`)**
-       - Conversión de Columnas Numéricas
-       - Validación de Columnas de Texto
-       - Transformación de Fechas Dinámicas en Filas
-       - Formateo y Validación de Fechas
-     - **Limpieza del Archivo Remoto (`global_calificacion.csv`)**
-       - Filtrar Datos de Guatemala
-       - Formateo de Fechas y Eliminación de Valores No Válidos
-       - Filtrar por el Año 2020
-       - Eliminar Duplicados
-     - **Combinación de Datos**
-       - Combinación de `dfLocal` y `dfRemoto` por Fechas
-   - **3. Preparación de Tablas para SQL**
-     - Preparar Tabla `Departamento`
-     - Preparar Tabla `Municipio`
-     - Preparar Tabla `DatosCovid`
-   - **4. Carga a la Base de Datos**
-     - Conexión a la Base de Datos
-     - Inserción de Datos en las Tablas:
-       - `Departamento`
-       - `Municipio`
-       - `DatosCovid`
-
-3. **Estructura de la Base de Datos**
-   - Tabla `Departamento`
-   - Tabla `Municipio`
-   - Tabla `DatosCovid`
-
-4. **Conclusión**
+1. [Introducción](#introducción)
+2. [Proceso de ETL](#proceso-de-etl)
+   - [1. Extracción de Datos](#1-extracción-de-datos)
+     - [1.1 Cargar datos locales (`municipio.csv`)](#11-cargar-datos-locales-municipiocsv)
+     - [1.2 Descargar y cargar datos globales desde Google Drive](#12-descargar-y-cargar-datos-globales-desde-google-drive)
+   - [2. Transformación de Datos](#2-transformación-de-datos)
+     - [2.1 Limpieza del archivo local (`municipio.csv`)](#21-limpieza-del-archivo-local-municipiocsv)
+       - [Conversión de columnas numéricas](#conversión-de-columnas-numéricas)
+       - [Validación de columnas de texto](#validación-de-columnas-de-texto)
+       - [Transformar fechas dinámicas en filas](#transformar-fechas-dinámicas-en-filas)
+       - [Formateo y validación de fechas](#formateo-y-validación-de-fechas)
+     - [2.2 Limpieza del archivo remoto (`global_calificacion.csv`)](#22-limpieza-del-archivo-remoto-global_calificacioncsv)
+       - [Filtrar datos de Guatemala](#filtrar-datos-de-guatemala)
+       - [Formateo de fechas y eliminación de valores no válidos](#formateo-de-fechas-y-eliminación-de-valores-no-válidos)
+       - [Filtrar por el año 2020](#filtrar-por-el-año-2020)
+       - [Eliminar duplicados](#eliminar-duplicados)
+     - [2.3 Combinación de datos](#23-combinación-de-datos)
+   - [3. Preparación de Tablas para SQL](#3-preparación-de-tablas-para-sql)
+     - [Tabla `Departamento`](#tabla-departamento)
+     - [Tabla `Municipio`](#tabla-municipio)
+     - [Tabla `DatosCovid`](#tabla-datoscovid)
+   - [4. Carga a la Base de Datos](#4-carga-a-la-base-de-datos)
 
 ---
 
-### **ETL para Datos de COVID-19 - Documentación**
+### **Introducción**
 
 Este proyecto implementa un proceso de ETL (*Extract, Transform, Load*) para procesar datos relacionados con casos de COVID-19. Los datos combinan información local de municipios y datos globales de la pandemia.
 
 ---
+
+### **Proceso de ETL**
 
 ## **1. Extracción de Datos**
 
