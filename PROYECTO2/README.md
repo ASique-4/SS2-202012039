@@ -1,4 +1,4 @@
-# PRACTICA 1
+# PROYECTO 2
 
 | Nombre                       | Carnet    |
 | ---------------------------- | --------- |
@@ -7,6 +7,8 @@
 ---
 
 # Página 1
+
+![Página 1](./img/PROYECTO2%20(1)_page-0001.jpg)
 
 **1. Gráfico de Barras Vertical (Suma de muertes por municipio):**
 
@@ -34,6 +36,8 @@
 **En resumen:** El panel utiliza una combinación efectiva de gráficos y una tabla para ofrecer una visión completa de los datos de mortalidad por municipio. El gráfico de barras y el mapa proporcionan una visión general de la distribución, mientras que la tabla y los filtros permiten un análisis más detallado de cada municipio. La interacción entre los elementos permite una exploración dinámica y un mejor entendimiento de la información.
 
 # Página 2
+
+![Página 2](./img/PROYECTO2%20(1)_page-0002.jpg)
 
 **1. Gráfico de Líneas (Suma de muertes_acumulativas por Año, Mes y Día):**
 
@@ -64,6 +68,8 @@
 **En resumen:** Este panel muestra la evolución de las muertes acumuladas a lo largo del tiempo y su relación con la población. El gráfico de líneas muestra la tendencia temporal, mientras que el gráfico de dispersión explora la correlación entre la población y la cantidad de muertes. El valor numérico proporciona un resumen del total de muertes acumuladas, y el control deslizante permite la exploración interactiva de diferentes períodos de tiempo.
 
 # Página 3
+
+![Página 3](./img/PROYECTO2%20(1)_page-0003.jpg)
 
 **1. Valor numérico (TasaMortalidad100k):**
 
@@ -96,6 +102,8 @@ El gráfico de líneas se centra en la _tasa_ de mortalidad, mientras que el gr�
 
 # Página 4
 
+![Página 4](./img/PROYECTO2%20(1)_page-0004.jpg)
+
 **1. Gráfico de Barras (Suma de muertes por departamento):**
 
 - **Motivo de la elección:** Los gráficos de barras son ideales para comparar cantidades entre diferentes categorías, en este caso, los departamentos. Permiten una fácil visualización de las diferencias en el número total de muertes entre cada uno.
@@ -126,6 +134,8 @@ La combinación de ambos gráficos permite comparar la distribución de las muer
 **En resumen:** El panel proporciona una visión general de la distribución de muertes y población por departamento. El gráfico de barras muestra la cantidad total de muertes, el gráfico de pastel muestra la proporción de la población, y los valores numéricos proporcionan información sobre la tasa de mortalidad promedio y el promedio de muertes diarias.
 
 # Página 5
+
+![Página 5](./img/PROYECTO2%20(1)_page-0005.jpg)
 
 **1. Gráfico de Líneas Múltiples (Suma de muertes por Año, Mes, Día y departamento):**
 

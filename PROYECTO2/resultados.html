@@ -14,6 +14,22 @@
             height: 100vh;
             margin: 0;
         }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .important {
+            font-weight: bold;
+            color: #d9534f;
+        }
         nav {
             width: 100%;
             background-color: #333;
@@ -34,11 +50,12 @@
         }
         .container {
             background-color: #fff;
-            padding: 20px;
+            padding: 40px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
             margin-top: 20px;
+            width: 60%;
         }
         .container h1 {
             margin-bottom: 20px;
@@ -60,9 +77,28 @@
         </ul>
     </nav>
     <div class="container">
-        <h1>Datos del Estudiante</h1>
-        <p><strong>Nombre:</strong> Angel Sique</p>
-        <p><strong>Carnet:</strong> 202012039</p>
+        <h1>Resultados del Proyecto</h1>
+        <p>Descarga el informe completo en PDF:</p>
+        <a href="README.pdf" download>Descargar PDF</a>
+        <br>
+        <iframe src="README.pdf" width="800" height="500"></iframe>
+        <br>
+        <h1>RECOMENDACIONES</h1>
+        
+        <h2 class="important">Atender primero a los departamentos más afectados</h2>
+        <p>Es necesario dar más ayuda y recursos a los lugares donde hay más muertes o donde la gente tiene más riesgo de morir. Estos lugares requieren atención especial para mejorar las condiciones y reducir los riesgos.</p>
+    
+        <h2 class="important">Averiguar por qué aumentaron las muertes a mediados de 2020</h2>
+        <p>Es muy importante investigar qué ocurrió a mediados de 2020 que causó tantas muertes. Entender esto nos ayudará a evitar que vuelva a suceder algo similar. Se debe buscar información sobre las enfermedades prevalentes, cómo actuó el gobierno, el acceso de la población a hospitales, y otros factores relevantes.</p>
+    
+        <h2 class="important">Comparar usando la tasa de mortalidad</h2>
+        <p>Para hacer una comparación justa entre departamentos, no basta con ver el número total de muertes. Es esencial usar la tasa de mortalidad, que considera el tamaño de la población en cada lugar. Esto nos da una visión más precisa y justa de la situación.</p>
+    
+        <h2 class="important">Mostrar los datos de forma clara</h2>
+        <p>La información debe ser presentada de manera que sea fácil de entender para todos. Se deben usar gráficos sencillos y explicaciones claras de lo que cada número representa, para asegurar que cualquier persona pueda interpretar correctamente los datos.</p>
+    
+        <h2 class="important">Seguir investigando para entender mejor</h2>
+        <p>Este análisis es solo el comienzo. Es importante seguir buscando información para entender por qué muere la gente y cómo podemos prevenirlo. Se debe investigar también sobre factores relacionados con la salud, la situación económica de las personas y otros aspectos que puedan influir en la mortalidad.</p>
     </div>
 </body>
 </html>
